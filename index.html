@@ -1,0 +1,1011 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Crumbs Artisan Bakery &amp; Patisserie</title>
+    <meta name="description" content="Sweet Crumbs artisanal bakery crafting slow-fermented sourdoughs, French laminated pastries, handcrafted celebration cakes, seasonal festival delicacies, and community baking recipes." />
+    <meta property="og:title" content="Sweet Crumbs Artisan Bakery &amp; Patisserie" />
+    <meta property="og:description" content="Sweet Crumbs artisanal bakery crafting slow-fermented sourdoughs, French laminated pastries, handcrafted celebration cakes, seasonal festival delicacies, and community baking recipes." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="min-h-screen bg-[#faf7f2] text-[#281d16] font-sans antialiased selection:bg-[#ebd2be] selection:text-[#52210c]">
+    
+    <!-- Top Announcement Bar -->
+    <aside class="bg-[#261912] text-[#f7eee5] text-xs py-1.5 px-4">
+      <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+        <div class="flex items-center gap-2">
+          <span class="text-[#d4976a]">🕒</span>
+          <span id="bakery-hours-top">Tuesday – Sunday: 7:00 AM – 7:00 PM (Fresh batches at 7:00 AM &amp; 2:00 PM) · Mondays Closed</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <span class="hidden md:inline text-[#d4bfa5]">
+            Sample prices shown as placeholders until verified by bakery owner.
+          </span>
+          <button id="btn-open-owner-top" class="text-[#d4976a] hover:text-[#f7eee5] transition-colors cursor-pointer text-xs font-medium flex items-center gap-1">
+            <span>⚙️</span>
+            <span>Owner Portal</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-[#faf7f2]/95 backdrop-blur-md border-b border-[#ebdcd0]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          
+          <!-- Logo & Brand Identity -->
+          <a href="#" class="flex items-center gap-3 group">
+            <div class="w-11 h-11 rounded-full bg-[#8c3d19] text-[#faf7f2] flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform text-xl">
+              🥐
+            </div>
+            <div>
+              <span class="font-serif text-2xl font-bold tracking-tight text-[#261912] block leading-none">
+                Sweet Crumbs
+              </span>
+              <span class="text-[11px] font-sans tracking-widest uppercase text-[#8c3d19] font-semibold mt-0.5 block">
+                Artisan Bakery &amp; Patisserie
+              </span>
+            </div>
+          </a>
+
+          <!-- Desktop Navigation -->
+          <nav class="hidden xl:flex items-center space-x-1 text-sm font-medium text-[#4a3b32]">
+            <a href="#best-sellers" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Best Sellers</a>
+            <a href="#special-pastries" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Special Pastries</a>
+            <a href="#product-catalog" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">All Products</a>
+            <a href="#recipes" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Recipes &amp; Ingredients</a>
+            <a href="#storage-guide" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Care &amp; Storage</a>
+            <a href="#packaging" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Packaging &amp; Safety</a>
+            <a href="#freshness-info" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Freshness &amp; Dates</a>
+            <a href="#monthly-offers" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Monthly Offers</a>
+            <a href="#coupons" class="px-2.5 py-1.5 rounded-md hover:text-[#8c3d19] hover:bg-[#f1e5d8] transition-colors">Coupons</a>
+          </nav>
+
+          <!-- Action CTAs -->
+          <div class="hidden sm:flex items-center gap-3">
+            <button id="nav-whatsapp-btn" class="flex items-center gap-1.5 px-3.5 py-2 text-sm font-medium rounded-lg text-[#1e613b] bg-[#e6f4ea] hover:bg-[#d4edd9] border border-[#a8dab5] transition-all cursor-pointer shadow-xs">
+              <span>💬</span>
+              <span>WhatsApp</span>
+            </button>
+
+            <a href="#enquiry-form" class="flex items-center gap-1.5 px-4 py-2 text-sm font-semibold rounded-lg text-white bg-[#8c3d19] hover:bg-[#722f12] shadow-sm hover:shadow transition-all cursor-pointer">
+              <span>✨</span>
+              <span>Enquire / Order</span>
+            </a>
+          </div>
+
+          <!-- Mobile Hamburger -->
+          <div class="flex xl:hidden items-center gap-2">
+            <button id="mobile-menu-btn" class="p-2 rounded-lg text-[#261912] hover:bg-[#ede1d3] transition-colors cursor-pointer text-xl" aria-label="Toggle menu">
+              ☰
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobile-menu-drawer" class="hidden xl:hidden bg-[#faf7f2] border-b border-[#e5d4c3] px-4 pt-2 pb-6 space-y-1 shadow-lg">
+        <div class="grid grid-cols-1 gap-1 text-sm font-medium text-[#261912]">
+          <a href="#best-sellers" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Best Sellers</a>
+          <a href="#special-pastries" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Special Pastries</a>
+          <a href="#product-catalog" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">All Products</a>
+          <a href="#recipes" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Recipes &amp; Ingredients</a>
+          <a href="#storage-guide" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Care &amp; Storage</a>
+          <a href="#packaging" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Packaging &amp; Safety</a>
+          <a href="#freshness-info" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Freshness &amp; Dates</a>
+          <a href="#monthly-offers" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Monthly Offers</a>
+          <a href="#coupons" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#efe4d6]">Coupons</a>
+        </div>
+        <div class="pt-4 border-t border-[#e5d4c3] flex flex-col gap-2">
+          <a href="#enquiry-form" class="mobile-nav-link text-center py-2.5 px-4 text-sm font-semibold text-white bg-[#8c3d19] rounded-lg">Enquire Now</a>
+          <button id="btn-open-owner-mobile" class="w-full py-2 px-4 text-xs font-medium text-[#705646] bg-[#f0e4d7] rounded-lg flex items-center justify-center gap-1.5 cursor-pointer">
+            <span>⚙️</span>
+            <span>Bakery Owner Portal</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="relative overflow-hidden bg-[#f7f2ea] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-24 relative z-10">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 space-y-6">
+              <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#8c3d19]">
+                <span>🔥 Stone Deck Ovens</span>
+                <span aria-hidden="true" class="text-[#c9b4a2]">·</span>
+                <span>48-Hour Cold Fermentation</span>
+                <span aria-hidden="true" class="text-[#c9b4a2]">·</span>
+                <span>Normandy Butter</span>
+              </div>
+
+              <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[#261912] leading-[1.12]">
+                Handcrafted Sourdoughs &amp; French Laminated Pastries
+              </h1>
+
+              <p class="text-base sm:text-lg text-[#5a483e] leading-relaxed max-w-2xl">
+                At <strong>Sweet Crumbs</strong>, we bake small-batch artisan sourdough loaves with wild natural levain, 27-layer crisp butter viennoiserie, and bespoke celebration cakes for life’s sweetest milestones. Baked fresh twice daily right here in our stone deck hearths.
+              </p>
+
+              <div class="flex flex-wrap items-center gap-3 pt-2">
+                <a href="#best-sellers" class="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-semibold rounded-xl text-white bg-[#8c3d19] hover:bg-[#702e11] shadow-md hover:shadow-lg transition-all cursor-pointer">
+                  <span>Browse Best Sellers</span>
+                  <span>→</span>
+                </a>
+                <a href="#special-pastries" class="inline-flex items-center gap-2 px-5 py-3.5 text-sm font-semibold rounded-xl text-[#261912] bg-[#f0e3d5] hover:bg-[#e6d5c3] border border-[#d6c1ad] transition-all cursor-pointer">
+                  <span>Special Pastries</span>
+                </a>
+                <button id="hero-whatsapp-btn" class="inline-flex items-center gap-2 px-5 py-3.5 text-sm font-semibold rounded-xl text-[#1e613b] bg-[#e6f4ea] hover:bg-[#d5ebd9] border border-[#a8dab5] transition-all cursor-pointer">
+                  <span>💬</span>
+                  <span>WhatsApp Head Baker</span>
+                </button>
+              </div>
+
+              <div class="pt-8 border-t border-[#e2d0c0] grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs text-[#524137]">
+                <div>
+                  <span class="font-semibold block text-[#261912]">🌾 100% Artisan Flour</span>
+                  <span>Unbleached stoneground grains</span>
+                </div>
+                <div>
+                  <span class="font-semibold block text-[#261912]">🛡️ Certified Food-Grade</span>
+                  <span>Clean, safe packaging</span>
+                </div>
+                <div class="col-span-2 sm:col-span-1">
+                  <span class="font-semibold block text-[#261912]">❤️ Pure Ingredients</span>
+                  <span>Zero artificial preservatives</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5">
+              <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-[#fffdfa] bg-[#ebe0d3] aspect-4/3 sm:aspect-5/4">
+                <img
+                  src="assets/images/hero-bakery.jpg"
+                  alt="Fresh artisan bread and croissants at Sweet Crumbs Bakery"
+                  class="w-full h-full object-cover transform hover:scale-102 transition-transform duration-700"
+                />
+                <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-xl shadow-lg border border-[#ebdcd0] text-[#261912]">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-xs font-bold uppercase tracking-wider text-[#8c3d19]">Daily Fresh Batches</span>
+                    <span class="text-[11px] text-[#786152] font-medium">Bake Schedule</span>
+                  </div>
+                  <p class="text-xs font-medium text-[#4a3a2f]">
+                    Hearth sourdoughs pulled at 7:00 AM &amp; 2:00 PM. Laminated viennoiserie baked thrice daily.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Best-Selling Products Section -->
+      <section id="best-sellers" class="py-16 sm:py-20 bg-[#faf7f2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>★</span>
+              <span>Customer Favourites</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Our Best-Selling Artisan Creations
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Handcrafted daily using traditional baking techniques. Voted the community’s most-loved celebration cakes, country loaves, and pure butter pastries.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fff8eb] border border-[#f0d4a3] text-xs text-[#8a5d1b]">
+              <span>ℹ️</span>
+              <span><strong>Note:</strong> All sample prices shown are placeholders subject to seasonal ingredient verification by the bakery owner.</span>
+            </div>
+          </div>
+
+          <!-- Best Sellers Grid -->
+          <div id="best-sellers-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Dynamically populated by main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Special Pastries Section -->
+      <section id="special-pastries" class="py-16 sm:py-20 bg-[#f5ede2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-10">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>🥐</span>
+              <span>French Viennoiserie &amp; Patisserie</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Special Pastries &amp; New Creations
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Laminated by hand with 84% churned Normandy butter, featuring Valrhona chocolates, real Tahitian vanilla diplomat creams, and seasonal fresh fruits.
+            </p>
+          </div>
+
+          <!-- Category Filters -->
+          <div class="flex items-center justify-center mb-10 overflow-x-auto pb-2 scrollbar-none">
+            <div id="pastry-filters" class="inline-flex items-center gap-1.5 p-1.5 bg-[#ebdacf] rounded-xl border border-[#d9c4b2]">
+              <!-- Dynamically populated filter buttons -->
+            </div>
+          </div>
+
+          <!-- Special Pastries Grid -->
+          <div id="special-pastries-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Dynamically populated by main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 13. Search & Full Product Catalog -->
+      <section id="product-catalog" class="py-16 sm:py-20 bg-[#faf7f2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-10">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>🔍</span>
+              <span>Full Bakery Selection</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Explore All Fresh Bakery Delights
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Search by keyword or ingredients, filter by category or dietary needs, and order directly.
+            </p>
+          </div>
+
+          <!-- Filter Toolbar -->
+          <div class="bg-white p-5 rounded-2xl border border-[#ebdcd0] shadow-xs mb-8 space-y-4">
+            <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+              <div class="relative w-full md:w-96">
+                <input
+                  type="text"
+                  id="catalog-search"
+                  placeholder="Search products by name or ingredient (e.g. Chocolate, Rye)..."
+                  class="w-full pl-9 pr-3 py-2 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                />
+                <span class="absolute left-3 top-1/2 -translate-y-1/2 text-xs text-[#8a7263]">🔍</span>
+              </div>
+
+              <div class="flex items-center gap-2 w-full md:w-auto justify-end">
+                <label for="catalog-sort" class="text-xs text-[#524137] font-medium">Sort By:</label>
+                <select id="catalog-sort" class="text-xs bg-[#faf7f2] border border-[#d9c7b4] text-[#261912] rounded-lg px-3 py-1.5 focus:outline-none focus:ring-1 focus:ring-[#8c3d19]">
+                  <option value="featured">Featured / Default</option>
+                  <option value="price-asc">Price: Low to High</option>
+                  <option value="price-desc">Price: High to Low</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-[#f0e4d7] flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
+              <div id="catalog-category-tabs" class="flex flex-wrap items-center gap-1.5">
+                <!-- Dynamically populated category buttons -->
+              </div>
+
+              <div class="flex items-center gap-4 text-xs text-[#4a392e]">
+                <label class="flex items-center gap-1.5 cursor-pointer">
+                  <input type="checkbox" id="filter-eggless" class="rounded text-[#8c3d19] focus:ring-[#8c3d19]" />
+                  <span>Eggless Only</span>
+                </label>
+                <label class="flex items-center gap-1.5 cursor-pointer">
+                  <input type="checkbox" id="filter-vegetarian" class="rounded text-[#8c3d19] focus:ring-[#8c3d19]" />
+                  <span>Vegetarian</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Results counter & Reset -->
+          <div class="flex items-center justify-between mb-6 text-xs text-[#705e52]">
+            <span id="catalog-results-count">Showing items</span>
+            <button id="btn-reset-filters" class="hidden text-[#8c3d19] hover:underline font-semibold cursor-pointer">
+              ✕ Reset all filters
+            </button>
+          </div>
+
+          <!-- Catalog Grid -->
+          <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Dynamically populated by main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Recipes & Ingredients Section -->
+      <section id="recipes" class="py-16 sm:py-20 bg-[#faf7f2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>📖</span>
+              <span>Artisan Craft &amp; Transparency</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Recipes &amp; Ingredients
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              We believe in honest baking with wholesome stoneground flours, natural wild yeasts, and slow fermentation. Explore our head baker's home-adapted formulas and ingredient guides.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#f0e8dd] border border-[#d9c7b4] text-xs text-[#5e4b3e]">
+              <span>ℹ️</span>
+              <span>All recipes below are owner-approved community adaptations for home kitchens. Proprietary secret levain cultures are clearly acknowledged.</span>
+            </div>
+          </div>
+
+          <div id="recipes-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Dynamically populated by main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Product Care & Storage Guide -->
+      <section id="storage-guide" class="py-16 sm:py-20 bg-[#f5ede2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>🌡️</span>
+              <span>Optimal Freshness &amp; Flavor</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Product Care &amp; Storage Guide
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Different bakery items demand distinct care. Storing sourdough in the fridge ruins its crust, while leaving a fresh cream tart on the counter compromises food safety.
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fff8eb] border border-[#ebd2aa] text-xs text-[#8a5d1b]">
+              <span>⚠️</span>
+              <span><strong>Owner Notice:</strong> Guidance varies by formulation. Custom celebration cakes with floral arrangements or fruit purees receive specific care cards at pickup.</span>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center mb-8 overflow-x-auto pb-2 scrollbar-none">
+            <div id="storage-tabs" class="inline-flex items-center gap-1.5 p-1.5 bg-[#ebdacf] rounded-xl border border-[#d9c4b2]">
+              <!-- Dynamically populated tabs -->
+            </div>
+          </div>
+
+          <div id="storage-content-card" class="bg-white rounded-2xl border border-[#ebdcd0] shadow-sm overflow-hidden p-6 sm:p-8">
+            <!-- Dynamically populated active guide -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Packaging & Food Safety -->
+      <section id="packaging" class="py-16 sm:py-20 bg-[#faf7f2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>🛡️</span>
+              <span>Food Safety &amp; Integrity</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Our Packaging &amp; Food Safety
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Every loaf, tart, and celebration tier leaves our bakery protected by food-grade, grease-resistant, and eco-friendly packaging designed to preserve moisture and hygiene.
+            </p>
+          </div>
+
+          <div id="packaging-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Dynamically populated by main.js -->
+          </div>
+
+          <!-- Transit checklist card -->
+          <div class="mt-10 bg-[#261912] text-white p-6 sm:p-8 rounded-2xl shadow-lg border border-[#422c20]">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+              <div class="md:col-span-8 space-y-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-[#d4976a]">Bakery Transit Checklist</span>
+                <h3 class="font-serif text-2xl font-bold">Transporting Celebration Cakes &amp; Cream Pastries</h3>
+                <p class="text-xs sm:text-sm text-[#e0cfbe] leading-relaxed">
+                  Carrying a tiered cake? Keep the vehicle cabin cool, turn air conditioning on 5 minutes before leaving, place the cake box flat on the front passenger floorboard, and avoid abrupt deceleration.
+                </p>
+              </div>
+              <div class="md:col-span-4 flex justify-start md:justify-end">
+                <a href="#enquiry-form" class="px-5 py-3 text-xs font-semibold rounded-xl text-[#261912] bg-[#f5ede2] hover:bg-white shadow transition-all">
+                  Request Special Transit Packaging
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Manufacturing Date & Shelf Life Section -->
+      <section id="freshness-info" class="py-16 sm:py-20 bg-[#f5ede2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-10">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>📅</span>
+              <span>Honest Shelf-Life Transparency</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Manufacturing &amp; Shelf-Life Index
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Artisan bakery products do not share one universal lifespan. A fresh cream éclair must be enjoyed within 24 hours, whereas naturally fermented sourdough thrives for 5 days and dry butter biscuits for 2 weeks.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            <div class="bg-[#faf7f2] p-4 rounded-xl border border-[#ebdcd0] text-xs">
+              <div class="flex items-center gap-2 text-[#8c3d19] font-bold mb-1">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#8c3d19]"></span>
+                <span>"Best-Before" Date (Peak Quality &amp; Texture)</span>
+              </div>
+              <p class="text-[#59463b]">
+                Applies to breads, croissants, and cookies. Indicates peak crunch, crust crackle, and chewiness. Consuming after this date remains safe when stored dry.
+              </p>
+            </div>
+            <div class="bg-[#fcf5f5] p-4 rounded-xl border border-[#f5d5d5] text-xs">
+              <div class="flex items-center gap-2 text-[#b03535] font-bold mb-1">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#b03535]"></span>
+                <span>"Use-By" Date (Food Safety Strict Requirement)</span>
+              </div>
+              <p class="text-[#59463b]">
+                Applies to fresh dairy cream, custard, and fresh berry cakes. For food safety reasons, these chilled confections must not be consumed past their strict use-by window.
+              </p>
+            </div>
+          </div>
+
+          <!-- Shelf Life Table Container -->
+          <div class="bg-white p-4 rounded-xl border border-[#ebdcd0] shadow-xs mb-6 flex flex-col sm:flex-row gap-3 items-center justify-between">
+            <input
+              type="text"
+              id="freshness-search"
+              placeholder="Search product shelf-life (e.g. Sourdough, Éclair)..."
+              class="w-full sm:w-80 px-3 py-2 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+            />
+            <div id="freshness-type-filter" class="inline-flex rounded-lg p-1 bg-[#f5ede2] border border-[#ded0c2] text-xs">
+              <button data-type="all" class="px-3 py-1 rounded-md font-medium bg-[#8c3d19] text-white cursor-pointer">All</button>
+              <button data-type="best-before" class="px-3 py-1 rounded-md font-medium text-[#4e3d33] hover:text-black cursor-pointer">Best-Before</button>
+              <button data-type="use-by" class="px-3 py-1 rounded-md font-medium text-[#4e3d33] hover:text-black cursor-pointer">Use-By</button>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-[#ebdcd0] shadow-xs overflow-hidden">
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-xs">
+                <thead class="bg-[#f0e7dd] text-[#3b2b21] font-semibold border-b border-[#ebdcd0]">
+                  <tr>
+                    <th class="py-3 px-4">Bakery Item</th>
+                    <th class="py-3 px-4">Daily Bake / Batch Schedule</th>
+                    <th class="py-3 px-4">Label Classification</th>
+                    <th class="py-3 px-4">Recommended Shelf Life</th>
+                    <th class="py-3 px-4">Storage Mode</th>
+                    <th class="py-3 px-4 text-right">Action</th>
+                  </tr>
+                </thead>
+                <tbody id="freshness-table-body" class="divide-y divide-[#ebdcd0]">
+                  <!-- Dynamically populated by main.js -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Monthly Offers & Festivals -->
+      <section id="monthly-offers" class="py-16 sm:py-20 bg-[#faf7f2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-10">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>🎁</span>
+              <span>Seasonal Festivities &amp; Celebrations</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Monthly Festival Collections &amp; Offers
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Every festival deserves its own handcrafted sweetness. Browse our annual calendar of limited-edition holiday pastries, commemorative cakes, and exclusive pre-order discounts.
+            </p>
+          </div>
+
+          <div class="mb-10 overflow-x-auto pb-3">
+            <div id="monthly-bar" class="flex items-center gap-2 min-w-max p-1.5 bg-[#f0e7dd] rounded-2xl border border-[#ebdcd0]">
+              <!-- 12 Months Buttons populated by main.js -->
+            </div>
+          </div>
+
+          <div id="monthly-showcase" class="bg-white rounded-3xl border border-[#ebdcd0] shadow-md overflow-hidden">
+            <!-- Dynamically populated active offer card -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. Coupons & Discounts Section -->
+      <section id="coupons" class="py-16 sm:py-20 bg-[#f5ede2] border-b border-[#ebdcd0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>🏷️</span>
+              <span>Customer Rewards &amp; Vouchers</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Bakery Coupons &amp; Discounts
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Enjoy special savings on artisan breads, morning pastries, and bespoke celebration cakes. Apply these verified codes when submitting your order enquiry.
+            </p>
+          </div>
+
+          <div id="coupons-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <!-- Dynamically populated by main.js -->
+          </div>
+
+          <!-- Real Backend Coupon Testing Form -->
+          <div class="bg-white rounded-2xl border border-[#ebdcd0] shadow-sm p-6 sm:p-8 max-w-2xl mx-auto">
+            <div class="flex items-center gap-2 mb-2 text-[#8c3d19] font-bold text-xs uppercase tracking-wider">
+              <span>🛡️</span>
+              <span>Interactive Coupon Verification Engine</span>
+            </div>
+            <h3 class="font-serif text-xl sm:text-2xl font-bold text-[#261912]">
+              Test &amp; Validate a Coupon Code
+            </h3>
+            <p class="text-xs text-[#5c4a3f] mt-1 mb-5">
+              Test any promo voucher with our instant verification engine to preview your discount before requesting a quotation.
+            </p>
+
+            <form id="coupon-test-form" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="test-coupon-code" class="text-xs font-semibold text-[#423126] block mb-1">Coupon Code</label>
+                  <input
+                    type="text"
+                    id="test-coupon-code"
+                    placeholder="e.g. WELCOME10 or CRUMBS5"
+                    class="w-full px-3 py-2 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-lg font-mono uppercase focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="test-coupon-subtotal" class="text-xs font-semibold text-[#423126] block mb-1">Estimated Order Value ($)</label>
+                  <input
+                    type="number"
+                    id="test-coupon-subtotal"
+                    min="5"
+                    step="1"
+                    value="35"
+                    class="w-full px-3 py-2 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                  />
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                id="btn-validate-coupon"
+                class="w-full py-2.5 px-4 text-xs font-semibold rounded-xl text-white bg-[#8c3d19] hover:bg-[#702e11] transition-all cursor-pointer shadow-xs"
+              >
+                Validate Coupon Code
+              </button>
+            </form>
+
+            <div id="coupon-test-result" class="hidden mt-4 p-4 rounded-xl text-xs border">
+              <!-- Dynamically populated output -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. Customer Enquiry Form Section -->
+      <section id="enquiry-form" class="py-16 sm:py-20 bg-[#f5ede2] border-b border-[#ebdcd0]">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-10">
+            <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#8c3d19] mb-2">
+              <span>✨</span>
+              <span>Direct Kitchen Reservations</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#261912] tracking-tight">
+              Customer Bakery &amp; Cake Enquiry
+            </h2>
+            <p class="mt-3 text-base text-[#5c4a3f]">
+              Reserve your celebration cake, request bespoke custom piping, or order ahead for morning batch collections. Instant reservation logging with WhatsApp confirmation support.
+            </p>
+          </div>
+
+          <!-- Preselection Banner (hidden by default) -->
+          <div id="enquiry-preselection-banner" class="hidden mb-6 bg-[#fff8eb] border border-[#f0d4a3] p-4 rounded-xl flex items-center justify-between text-xs text-[#8a5d1b]">
+            <div class="flex items-center gap-2">
+              <span>✨</span>
+              <span id="preselection-banner-text">Preselected Item</span>
+            </div>
+            <button id="btn-clear-preselection" class="text-[#8c3d19] hover:underline font-semibold cursor-pointer">Clear</button>
+          </div>
+
+          <!-- Real Backend Enquiry Form -->
+          <form id="bakery-enquiry-form" class="bg-white rounded-3xl border border-[#ebdcd0] p-6 sm:p-10 shadow-md space-y-6" novalidate>
+            <div id="form-server-error" class="hidden p-4 rounded-xl bg-[#fdf2f2] border border-[#f5c6c6] text-xs text-[#9b2c2c]"></div>
+
+            <!-- Row 1: Contact Details -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div>
+                <label for="enquiry-name" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Full Name <span class="text-[#b03535]">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="enquiry-name"
+                  placeholder="e.g. Sree Kumar"
+                  class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                  required
+                />
+                <span id="err-name" class="text-[11px] text-[#b03535] mt-1 hidden block"></span>
+              </div>
+
+              <div>
+                <label for="enquiry-phone" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Phone Number <span class="text-[#b03535]">*</span>
+                </label>
+                <input
+                  type="tel"
+                  id="enquiry-phone"
+                  placeholder="e.g. +1 555 742 8732"
+                  class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                  required
+                />
+                <span id="err-phone" class="text-[11px] text-[#b03535] mt-1 hidden block"></span>
+              </div>
+
+              <div>
+                <label for="enquiry-email" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Email Address <span class="text-[#b03535]">*</span>
+                </label>
+                <input
+                  type="email"
+                  id="enquiry-email"
+                  placeholder="e.g. customer@example.com"
+                  class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                  required
+                />
+                <span id="err-email" class="text-[11px] text-[#b03535] mt-1 hidden block"></span>
+              </div>
+            </div>
+
+            <!-- Row 2: Product & Quantity -->
+            <div class="grid grid-cols-1 sm:grid-cols-12 gap-4">
+              <div class="sm:col-span-8">
+                <label for="enquiry-product" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Product Selection <span class="text-[#b03535]">*</span>
+                </label>
+                <select id="enquiry-product" class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]">
+                  <!-- Populated by main.js with all bakery items -->
+                </select>
+                <span id="err-product" class="text-[11px] text-[#b03535] mt-1 hidden block"></span>
+              </div>
+
+              <div class="sm:col-span-4">
+                <label for="enquiry-qty" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Quantity <span class="text-[#b03535]">*</span>
+                </label>
+                <div class="flex items-center">
+                  <button type="button" id="btn-qty-minus" class="px-3 py-2 text-xs font-bold bg-[#faf7f2] border border-[#d9c7b4] rounded-l-xl hover:bg-[#ede0d2] cursor-pointer">-</button>
+                  <input type="number" id="enquiry-qty" min="1" max="100" value="1" class="w-full text-center py-2 text-xs bg-white border-y border-[#d9c7b4] focus:outline-none" />
+                  <button type="button" id="btn-qty-plus" class="px-3 py-2 text-xs font-bold bg-[#faf7f2] border border-[#d9c7b4] rounded-r-xl hover:bg-[#ede0d2] cursor-pointer">+</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 3: Size, Flavour & Date -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div>
+                <label for="enquiry-size" class="text-xs font-semibold text-[#3b2c23] block mb-1">Portion / Size</label>
+                <select id="enquiry-size" class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]">
+                  <option value="500g (Serves 4-6)">500g (Serves 4-6)</option>
+                  <option value="1kg (Serves 8-10)" selected>1kg (Serves 8-10)</option>
+                  <option value="1.5kg (Serves 12-14)">1.5kg (Serves 12-14)</option>
+                  <option value="2kg (Serves 16-20)">2kg (Serves 16-20)</option>
+                  <option value="Single Portion / Loaf">Single Portion / Loaf</option>
+                  <option value="Box of 4">Box of 4</option>
+                  <option value="Box of 6">Box of 6</option>
+                  <option value="Box of 12">Box of 12</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="enquiry-flavour" class="text-xs font-semibold text-[#3b2c23] block mb-1">Preferred Flavour Profile</label>
+                <select id="enquiry-flavour" class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]">
+                  <option value="Classic Bakery Standard">Classic Bakery Standard</option>
+                  <option value="70% Belgian Dark Chocolate Ganache">70% Belgian Dark Chocolate Ganache</option>
+                  <option value="Madagascar Bourbon Vanilla Bean">Madagascar Bourbon Vanilla Bean</option>
+                  <option value="Salted Butter Caramel &amp; Praline">Salted Butter Caramel &amp; Praline</option>
+                  <option value="Pistachio Rosewater &amp; Cardamom">Pistachio Rosewater &amp; Cardamom</option>
+                  <option value="Fresh Seasonal Berry &amp; Cream">Fresh Seasonal Berry &amp; Cream</option>
+                  <option value="Espresso &amp; Toasted Walnut">Espresso &amp; Toasted Walnut</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="enquiry-date" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Required Date <span class="text-[#b03535]">*</span>
+                </label>
+                <input
+                  type="date"
+                  id="enquiry-date"
+                  class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                  required
+                />
+                <span id="err-date" class="text-[11px] text-[#b03535] mt-1 hidden block"></span>
+              </div>
+            </div>
+
+            <!-- Row 4: Custom Design Notes & Dietary -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="enquiry-design" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Custom Design, Inscriptions &amp; Piping Requirements
+                </label>
+                <textarea
+                  id="enquiry-design"
+                  rows="3"
+                  placeholder="e.g. 'Happy Birthday Maya!', floral theme, rustic semi-naked frosting..."
+                  class="w-full px-3.5 py-2 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                ></textarea>
+              </div>
+
+              <div>
+                <label for="enquiry-dietary" class="text-xs font-semibold text-[#3b2c23] block mb-1">
+                  Dietary Preferences
+                </label>
+                <select id="enquiry-dietary" class="w-full px-3.5 py-2.5 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19] mb-3">
+                  <option value="Standard">Standard Artisanal Formulation</option>
+                  <option value="Eggless / Pure Vegetarian">Eggless / 100% Vegetarian</option>
+                  <option value="Nut-Free Prepared">Nut-Free Request (Handled with Care)</option>
+                  <option value="Less Sugar Preference">Lower Sugar Preference</option>
+                </select>
+
+                <label for="enquiry-coupon" class="text-xs font-semibold text-[#3b2c23] block mb-1">Coupon Code (Optional)</label>
+                <input
+                  type="text"
+                  id="enquiry-coupon"
+                  placeholder="e.g. WELCOME10 or CRUMBS5"
+                  class="w-full px-3.5 py-2 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl font-mono uppercase focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label for="enquiry-message" class="text-xs font-semibold text-[#3b2c23] block mb-1">Additional Instructions or Delivery Notes</label>
+              <textarea
+                id="enquiry-message"
+                rows="2"
+                placeholder="e.g. Prefer pickup between 10:00 AM - 11:30 AM; need safe travel packaging for car trip..."
+                class="w-full px-3.5 py-2 text-xs bg-[#faf7f2] border border-[#d9c7b4] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#8c3d19]"
+              ></textarea>
+            </div>
+
+            <!-- Actions Bar -->
+            <div class="pt-4 border-t border-[#ebdcd0] flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div class="flex items-center gap-2 text-xs text-[#6e584a]">
+                <span>🛡️</span>
+                <span>Protected submission · Stored in Sweet Crumbs kitchen log</span>
+              </div>
+
+              <div class="flex items-center gap-3 w-full sm:w-auto">
+                <button
+                  type="button"
+                  id="enquiry-whatsapp-btn"
+                  class="w-full sm:w-auto px-4 py-3 rounded-xl text-xs font-semibold text-[#1e613b] bg-[#e6f4ea] hover:bg-[#d5ebd9] border border-[#a8dab5] flex items-center justify-center gap-2 cursor-pointer shadow-xs"
+                >
+                  <span>💬</span>
+                  <span>Enquire via WhatsApp</span>
+                </button>
+
+                <button
+                  type="submit"
+                  id="enquiry-submit-btn"
+                  class="w-full sm:w-auto px-6 py-3 rounded-xl text-xs font-semibold text-white bg-[#8c3d19] hover:bg-[#702e11] shadow-md flex items-center justify-center gap-2 transition-all cursor-pointer"
+                >
+                  <span>🚀</span>
+                  <span>Submit Bakery Enquiry</span>
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#1f140e] text-[#f2e7de] border-t border-[#38271e] pt-16 pb-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
+          
+          <div class="lg:col-span-4 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-[#8c3d19] text-[#faf7f2] flex items-center justify-center shadow-xs text-xl">
+                🥐
+              </div>
+              <span class="font-serif text-2xl font-bold tracking-tight text-white">
+                Sweet Crumbs
+              </span>
+            </div>
+            <p class="text-xs text-[#c9b7aa] leading-relaxed max-w-sm">
+              Artisan bakery crafting slow-fermented country sourdoughs, traditional French butter viennoiserie, and bespoke celebration cakes baked on stone deck hearths.
+            </p>
+            <div class="text-xs text-[#a39082] pt-2">
+              <span class="text-[#d4976a] font-semibold block mb-0.5">Disclaimer:</span>
+              <p>Sample prices shown as placeholders until verified by the bakery owner.</p>
+            </div>
+          </div>
+
+          <div class="lg:col-span-2 space-y-3">
+            <h4 class="font-serif text-sm font-bold text-white uppercase tracking-wider">Explore Menu</h4>
+            <ul class="space-y-2 text-xs text-[#c9b7aa]">
+              <li><a href="#best-sellers" class="hover:text-white transition-colors">Best Sellers</a></li>
+              <li><a href="#special-pastries" class="hover:text-white transition-colors">Special Pastries</a></li>
+              <li><a href="#product-catalog" class="hover:text-white transition-colors">Product Search</a></li>
+              <li><a href="#recipes" class="hover:text-white transition-colors">Recipes &amp; Ingredients</a></li>
+              <li><a href="#storage-guide" class="hover:text-white transition-colors">Care &amp; Storage Guide</a></li>
+              <li><a href="#packaging" class="hover:text-white transition-colors">Packaging &amp; Safety</a></li>
+            </ul>
+          </div>
+
+          <div class="lg:col-span-2 space-y-3">
+            <h4 class="font-serif text-sm font-bold text-white uppercase tracking-wider">Promotions &amp; Care</h4>
+            <ul class="space-y-2 text-xs text-[#c9b7aa]">
+              <li><a href="#monthly-offers" class="hover:text-white transition-colors">Monthly Festival Offers</a></li>
+              <li><a href="#coupons" class="hover:text-white transition-colors">Active Coupons</a></li>
+              <li><a href="#freshness-info" class="hover:text-white transition-colors">Freshness &amp; Shelf Life</a></li>
+              <li><a href="#enquiry-form" class="hover:text-white transition-colors">Customer Enquiry Form</a></li>
+              <li><button id="btn-footer-owner" class="text-[#d4976a] hover:text-white transition-colors cursor-pointer text-left">Bakery Owner Portal</button></li>
+            </ul>
+          </div>
+
+          <div class="lg:col-span-4 space-y-3 text-xs text-[#c9b7aa]">
+            <h4 class="font-serif text-sm font-bold text-white uppercase tracking-wider">Visit &amp; Contact Us</h4>
+            <div class="flex items-start gap-2.5">
+              <span>📍</span>
+              <span id="footer-address">42 Artisan Flour Lane, Heritage Quarter, Suite 102</span>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span>🕒</span>
+              <span id="footer-hours">Tuesday – Sunday: 7:00 AM – 7:00 PM · Mondays Closed</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <span>📞</span>
+              <span id="footer-phone">+1 (555) 742-8732</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <span>✉️</span>
+              <span id="footer-email">hello@sweetcrumbsbakery.com</span>
+            </div>
+            <div class="pt-2">
+              <button id="footer-whatsapp-btn" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold text-white bg-[#1e613b] hover:bg-[#164d2d] transition-all cursor-pointer shadow-xs">
+                <span>💬</span>
+                <span>Chat Directly on WhatsApp</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-[#38271e] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#8c786a]">
+          <p>© 2026 Sweet Crumbs Artisan Bakery &amp; Patisserie. All rights reserved.</p>
+          <div class="flex items-center gap-4">
+            <span>Baked with ❤️ &amp; pure Normandy butter</span>
+            <span>·</span>
+            <button id="btn-bottom-owner" class="text-[#d4976a] hover:underline cursor-pointer">Content Management</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <div id="floating-whatsapp-container" class="fixed bottom-6 right-6 z-40 flex flex-col items-end">
+      <div id="whatsapp-tooltip" class="mb-2 bg-[#261912] text-white text-xs py-2 px-3.5 rounded-xl shadow-xl border border-[#4a362a] max-w-xs flex items-center gap-2">
+        <span>Need urgent assistance? Chat with our Head Baker!</span>
+        <button id="btn-close-tooltip" class="text-white/60 hover:text-white font-bold ml-1 cursor-pointer">✕</button>
+      </div>
+      <button
+        id="btn-floating-whatsapp"
+        class="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-xl hover:scale-110 active:scale-95 transition-all cursor-pointer border-2 border-white text-2xl focus:outline-none"
+        aria-label="Open WhatsApp"
+      >
+        💬
+      </button>
+    </div>
+
+    <!-- Modal 1: Recipe Detail View -->
+    <div id="recipe-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay overflow-y-auto">
+      <div class="relative w-full max-w-3xl bg-white rounded-3xl shadow-2xl border border-[#ebdcd0] overflow-hidden my-6 max-h-[90vh] flex flex-col">
+        <div class="p-6 bg-[#261912] text-white flex items-start justify-between">
+          <div>
+            <div id="recipe-modal-meta" class="text-xs text-[#d4976a] uppercase font-bold tracking-wider"></div>
+            <h3 id="recipe-modal-title" class="font-serif text-2xl font-bold mt-1"></h3>
+            <p id="recipe-modal-subtitle" class="text-xs text-[#e0cfbe] mt-0.5"></p>
+          </div>
+          <button id="btn-close-recipe-modal" class="p-2 rounded-lg text-white/80 hover:text-white hover:bg-white/10 text-lg cursor-pointer">✕</button>
+        </div>
+        <div id="recipe-modal-body" class="p-6 overflow-y-auto space-y-6 text-xs text-[#524137]"></div>
+        <div class="p-4 bg-[#faf7f2] border-t border-[#ebdcd0] flex items-center justify-between">
+          <span class="text-xs text-[#705a4d]">Recipe shared for non-commercial home enjoyment.</span>
+          <button id="btn-close-recipe-modal-bottom" class="px-5 py-2 text-xs font-semibold rounded-lg text-white bg-[#8c3d19] hover:bg-[#702e11] cursor-pointer">Close Recipe</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2: Product Detail & Transparency View -->
+    <div id="product-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay overflow-y-auto">
+      <div class="relative w-full max-w-3xl bg-white rounded-3xl shadow-2xl border border-[#ebdcd0] overflow-hidden my-6 max-h-[90vh] flex flex-col">
+        <div class="relative aspect-16/9 bg-[#f0e7dd] shrink-0">
+          <img id="product-modal-img" src="" alt="" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-6 text-white">
+            <span id="product-modal-category" class="text-xs font-semibold uppercase tracking-wider text-[#f5c298]"></span>
+            <h3 id="product-modal-name" class="font-serif text-2xl sm:text-3xl font-bold mt-1"></h3>
+            <span id="product-modal-price" class="text-lg font-bold text-white mt-1"></span>
+          </div>
+          <button id="btn-close-product-modal" class="absolute top-4 right-4 p-2 rounded-full bg-black/50 text-white hover:bg-black/80 cursor-pointer">✕</button>
+        </div>
+        <div id="product-modal-body" class="p-6 overflow-y-auto space-y-6 text-xs text-[#524137]"></div>
+        <div class="p-4 bg-[#faf7f2] border-t border-[#ebdcd0] flex flex-col sm:flex-row items-center justify-between gap-3">
+          <span class="text-[11px] text-[#705e52]">Baked fresh in our stone deck ovens.</span>
+          <div class="flex items-center gap-2">
+            <button id="product-modal-whatsapp" class="px-4 py-2 text-xs font-semibold rounded-xl text-[#1e613b] bg-[#e6f4ea] hover:bg-[#d5ebd9] border border-[#a8dab5] cursor-pointer">WhatsApp</button>
+            <button id="product-modal-enquire" class="px-5 py-2 text-xs font-semibold rounded-xl text-white bg-[#8c3d19] hover:bg-[#702e11] cursor-pointer">Enquire For This Item</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3: Verified Booking Confirmation Slip -->
+    <div id="enquiry-success-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay overflow-y-auto">
+      <div class="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-[#ebdcd0] p-8 text-center space-y-6">
+        <div class="w-16 h-16 rounded-full bg-[#eef7ed] text-[#2b723d] mx-auto flex items-center justify-center text-3xl font-bold">
+          ✓
+        </div>
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-[#2b723d] block mb-1">Enquiry Successfully Logged With Bakery</span>
+          <h3 id="success-customer-name" class="font-serif text-2xl sm:text-3xl font-bold text-[#261912]">Thank You!</h3>
+          <p id="success-message" class="mt-2 text-xs text-[#5c4a3f]"></p>
+        </div>
+        <div id="success-summary-card" class="bg-[#faf7f2] border border-[#ebdcd0] p-5 rounded-2xl text-left text-xs space-y-2"></div>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+          <button id="btn-success-whatsapp" class="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-semibold text-[#1e613b] bg-[#e6f4ea] hover:bg-[#d5ebd9] border border-[#a8dab5] cursor-pointer">
+            💬 Open WhatsApp with Reference
+          </button>
+          <button id="btn-close-success" class="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-semibold text-[#544338] bg-[#f5ede2] hover:bg-[#ebdcd0] cursor-pointer">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4: Bakery Owner Portal (Administrative Content Management) -->
+    <div id="admin-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay overflow-y-auto">
+      <div class="relative w-full max-w-4xl bg-white rounded-3xl shadow-2xl border border-[#ebdcd0] overflow-hidden my-6 max-h-[90vh] flex flex-col">
+        <div class="p-6 bg-[#261912] text-white flex items-center justify-between">
+          <div>
+            <h3 class="font-serif text-xl font-bold">Sweet Crumbs Owner Portal</h3>
+            <p class="text-xs text-[#d4bfa5]">Manage product prices, stock, shelf-life, view received customer orders, and export JSON</p>
+          </div>
+          <button id="btn-close-admin-modal" class="p-2 text-white/80 hover:text-white text-lg cursor-pointer">✕</button>
+        </div>
+        
+        <div class="bg-[#faf7f2] border-b border-[#ebdcd0] px-6 flex items-center gap-2">
+          <button id="admin-tab-products" class="py-3 px-4 text-xs font-semibold border-b-2 border-[#8c3d19] text-[#8c3d19] cursor-pointer">Products &amp; Prices</button>
+          <button id="admin-tab-enquiries" class="py-3 px-4 text-xs font-semibold border-b-2 border-transparent text-[#6e584a] hover:text-[#261912] cursor-pointer">Customer Enquiries (<span id="admin-enquiries-count">0</span>)</button>
+          <button id="admin-tab-architecture" class="py-3 px-4 text-xs font-semibold border-b-2 border-transparent text-[#6e584a] hover:text-[#261912] cursor-pointer">System Architecture</button>
+        </div>
+
+        <div id="admin-modal-body" class="p-6 overflow-y-auto flex-1">
+          <!-- Populated by main.js -->
+        </div>
+
+        <div class="p-4 bg-[#faf7f2] border-t border-[#ebdcd0] flex items-center justify-between">
+          <span class="text-xs text-[#705e52]">Sweet Crumbs Content Management System</span>
+          <button id="btn-close-admin-modal-bottom" class="px-5 py-2 text-xs font-semibold rounded-xl text-white bg-[#8c3d19] hover:bg-[#702e11] cursor-pointer">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vanilla JavaScript Application Logic -->
+    <script defer src="js/main.js"></script>
+  </body>
+</html>

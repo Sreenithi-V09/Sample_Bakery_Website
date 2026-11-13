@@ -1,0 +1,6 @@
+{
+  "name": "Golden Hearth Artisan Bakery & Patisserie",
+  "description": "Artisanal bakery crafting slow-fermented sourdoughs, French laminated pastries, handcrafted celebration cakes, seasonal festival delicacies, and community baking recipes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
